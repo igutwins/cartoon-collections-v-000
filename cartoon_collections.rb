@@ -7,7 +7,7 @@ end
 def summon_captain_planet(array)
   array.collect do |phrase|
     phrase.capitalize
-    phrase << "!"
+    phrase + "!"
   end
 end
 
